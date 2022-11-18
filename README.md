@@ -35,24 +35,20 @@ Assim também os projetos aqui inseridos, pois assim que eu conseguir fazer algo
 
 - Melhorar o design responsivo para versões de tablet;
 
-- Como de fato resolver o 
-    "[{
+- Como de fato resolver esse problema no HTML uma vez que jé tentei solucionar com `aria-label` e `aria-labelledby` 
+    
 
 	    "message": "Provide a descriptive text in between the tags",
 	    "source": "web accessibility",
 	
-    }]
-    no HTML uma vez que jé tentei solucionar com `aria-label` e `aria-labelledby` 
+       
 
 - Melhorar o desempenho no Lighthouse:
     V. 1.1.1  (18/11/2022):
 
-    |  | Desempenho- | -Acessibilidade-  | --Práticas Recomendadas-  | -SEO
+    |  | Desempenho | Acessibilidade  | Práticas Recomendadas  | SEO
     | ----------- | ----------- | ----------- | ----------- | ----------- |
     | Computador | 92 | 95 | 92 | 80 |
     | Dispositivo Móvel | 96 | 95 | 75 | 83 |
 
 
-![Versão 1.1.1 Padrão](images/versao_padrao.jpg)
-![Versão 1.1.1 Light](images/versao_light.jpg)
-![Versão 1.1.1 Dark](images/versao_dark.jpg)
