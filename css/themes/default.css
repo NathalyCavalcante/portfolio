@@ -1,0 +1,16 @@
+:root {
+    --background-color: #F7EDE2;
+    --font-color: #3e4c65;
+    --menu-footer-color: #84A59D;
+    --elements-color: white;
+    --button-color: #F6BD60;
+    --stats-color: #F28482;
+    --card-color: #F5CAC3;
+    --span-color: #F28482;
+    --shadow-color: #8a87844b;
+    --form-color: #93bdb379;
+    --fill-hover-color: invert(85%) sepia(12%) saturate(650%) hue-rotate(318deg) brightness(99%) contrast(94%);
+    --fill-color: invert(100%) sepia(1%) saturate(1771%) hue-rotate(225deg) brightness(114%) contrast(100%); /*white*/
+    --fill-icon-color: invert(72%) sepia(4%) saturate(1656%) hue-rotate(115deg) brightness(88%) contrast(86%);
+    --form-input-color: #f0f0f0;    
+}

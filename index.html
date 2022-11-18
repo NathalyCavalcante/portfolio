@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/ico" sizes="18x18" href="images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;900&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/themes/default.css" id="themeStylesheetLink">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+  <title>Nathaly Cavalcante | Portfólio</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <a class="logo" href="/" aria-label="confira meu website"><img src="images/NClogo-branco-52.png" alt="site logo"></a>
+            <div class="troca-cor">
+                <h3>Selecione um tema:</h3>   
+                    <div class="btns-troca-cor" id="themeSelect">
+                    <button id="themeLight" value="light" class="btn-tema" aria-label="Set light theme" title="claro"><i class="fi fi-rr-sun"></i>
+                    </button>
+                    <button id="themeDefault" value="default" class="btn-tema" aria-label="Set default theme" title="colorido"><i class="fi fi-rs-flower"></i>
+                    </button>
+                    <button id="themeDark" value="dark" class="btn-tema" aria-label="Set dark theme" title="escuro"><i class="fi fi-rs-moon"></i>
+                    </button>   
+                </div>
+            </div>
+            <div class="mobile-menu">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </nav> 
+    </header>
+    <section class="home">    
+        <div class="home-conteudo">
+            <h1><span>Olá,</span> sou Nathaly Cavalcante</h1>
+            <h2>Web Developer e este é o meu portfólio</h2>                     
+        </div>
+        <a class="btn" href="#projetos">Projetos</a>            
+    </section>
+    <section id="sobre" class="about">
+        <h2>Sobre mim</h2>
+        <div class="about-info">
+            <img class="minha-foto" src="images/minha foto.avif" alt="minha foto">
+            <div class="text">
+                <p>Eu me chamo Nathaly Cavalcante e sou uma web developer pernambucana morando no Rio Grande do Sul. 
+                    Formei-me em Comunicação Social com habilitação em Relações Públicas mas nunca atuei na área. Tenho experiência de quase 15 anos no serviço público no setor 
+                    administrativo fazendo diversos trabalhos do ramo.</p><br>
+                <p>Há pouco mais de um ano decidi fazer transição de carreira, aproveitando dos meus conhecimentos da lingua inglesa e 
+                    disponibilidade de estudo remoto passei a fazer cursos na área de programação e sou uma autoditada em busca das primeiras 
+                    oportunidades de trabalho.</p><br>
+                <p>Apesar de ter inciado pelo caminho do front-end, confesso que minhas descobertas no back-end estão me encantando 
+                    e hoje sou uma <b>aspirante a full-stack developer</b>.</p><br>
+                <p>Estou aberta para oportunidades de trabalho onde eu possa contribuir, aprender e crescer.</p>  
+            </div>         
+        </div>
+        <div class="habilidades">
+        <ul>Minhas habilidades
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>SASS</li>
+            <li>SQL Basics</li>
+            <li>Terminal</li>
+        </ul>            
+        </div>
+    </section>  
+    <section id="projetos" class="projects">    
+        <h2>Projetos</h2>
+    <div class="carrossel-container">
+        <div class="carrossel" id="carrossel">
+            <!-- slide 1 -->
+            <div data-js="carrossel-item" class="slide  carrossel-item carrossel-item--visible">
+                <article>
+                    <a href="https://nathalycavalcante.github.io/Stats_Preview_Card_Component/" target="_blank" aria-label="confira o projeto">
+                    <img class="devices" src="images/site-clone.avif" alt="devices site clone"></a>
+                    <div class="project-text">
+                    <h3>Stats Preview Card Component</h3>
+                    <p>Este site clone fez parte de um dos diversos desafios que participo do site <a href="https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62"  target="_blank"><b>Frontend Mentor</b></a>. 
+                    O intúito é resolver desafios de HTML, CSS e JavaScript do mundo real enquanto trabalha com designs profissionais. 
+                    Uma ótima maneira de praticar as habilidades recebendo feedbacks. Para esta página, utilizei apenas HTML e puro CSS
+                    </p>
+                    <details class="leia-mais">                                           
+                        <sumary>Este site clone fez parte de um dos diversos desafios que participo do site <a href="https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62"  target="_blank"><b>Frontend Mentor</b></a>. 
+                            O intúito é resolver desafios de HTML, CSS e JavaScript do mundo real enquanto trabalha com designs profissionais. 
+                            Uma ótima maneira de praticar as habilidades recebendo feedbacks. Para esta página, utilizei apenas HTML e puro CSS
+                        </sumary>                                                  
+                    </details>  
+                    <ul class="stats">
+                        <li>99% <span>Desempenho</span></li>
+                        <li>94% <span>Acessibilidade</span></li>
+                        <li>100% <span>Melhores Práticas</span></li>
+                    </ul>              
+                    </div>  
+                </article>                        
+                    <div class="links">
+                    <img class="webicon" src="images/devices.svg" alt="devices logo">
+                    <a href="https://nathalycavalcante.github.io/Stats_Preview_Card_Component/" target="_blank" class="pagina">página</a>
+                    <img class="github" src="images/github-original.svg" alt="github logo">
+                    <a href="https://github.com/NathalyCavalcante/Stats_Preview_Card_Component" target="_blank" class="codigo">código</a>
+                    </div>                     
+            </div>
+            <!-- slide 2 -->
+            <div data-js="carrossel-item" class="slide carrossel-item ">
+                <article>
+                    <a href="" target="_blank" aria-label="confira o projeto">
+                    <img class="devices" src="images/site-embreve.avif" alt="devices site em breve"> </a>
+                    <div class="project-text">
+                    <h3>Em breve</h3>
+                    <p>Em breve trago outro site</p>
+                    <details class="leia-mais">                                               
+                        <sumary></sumary>                                                    
+                    </details>   
+                    <ul class="stats">
+                        <li>00% <span>Desempenho</span></li>
+                        <li>00% <span>Acessibilidade</span></li>
+                        <li>00% <span>Melhores Práticas</span></li>
+                    </ul>  
+                    </div>                        
+                </article>                                    
+                    <div class="links">
+                    <img class="webicon" src="images/devices.svg" alt="devices logo">
+                    <a href="" target="_blank" class="pagina">página</a>
+                    <img class="github" src="images/github-original.svg" alt="github logo">
+                    <a href="" target="_blank" class="codigo">código</a>
+                    </div>                     
+            </div>
+            <!-- slide 3 -->
+            <div data-js="carrossel-item" class="slide carrossel-item">
+                <article>
+                    <a href="" target="_blank" aria-label="confira o projeto">
+                    <img class="devices" src="images/site-embreve.avif" alt="devices site em breve"> </a>
+                    <div class="project-text">
+                    <h3>Em breve</h3>
+                    <p>Em breve trago outro site</p>
+                    <details class="leia-mais">                                               
+                        <sumary></sumary>                                                    
+                    </details>  
+                    <ul class="stats">
+                        <li>00% <span>Desempenho</span></li>
+                        <li>00% <span>Acessibilidade</span></li>
+                        <li>00% <span>Melhores Práticas</span></li>
+                    </ul>  
+                    </div>                        
+                </article>                                    
+                    <div class="links">
+                    <img class="webicon" src="images/devices.svg" alt="devices logo">
+                    <a href="" target="_blank" class="pagina">página</a>
+                    <img class="github" src="images/github-original.svg" alt="github logo">
+                    <a href="" target="_blank" class="codigo">código</a>
+                    </div>                     
+            </div>
+            <!-- slide 4 -->
+            <div data-js="carrossel-item" class="slide carrossel-item">                
+                <article>
+                    <a href="" target="_blank" aria-label="confira o projeto">
+                    <img class="devices" src="images/site-embreve.avif" alt="devices site em breve"> </a>
+                    <div class="project-text">
+                    <h3>Em breve</h3>
+                    <p>Em breve trago outro site</p>
+                    <details class="leia-mais">                                               
+                        <sumary></sumary>                                                    
+                    </details>  
+                    <ul class="stats">
+                        <li>00% <span>Desempenho</span></li>
+                        <li>00% <span>Acessibilidade</span></li>
+                        <li>00% <span>Melhores Práticas</span></li>
+                    </ul>  
+                    </div>                        
+                </article>                                    
+                    <div class="links">
+                    <img class="webicon" src="images/devices.svg" alt="devices logo">
+                    <a href="" target="_blank" class="pagina">página</a>
+                    <img class="github" src="images/github-original.svg" alt="github logo">
+                    <a href="" target="_blank" class="codigo">código</a>
+                    </div>                     
+            </div>
+            <!-- slide 5 -->
+            <div data-js="carrossel-item" class="slide carrossel-item">
+                <article>
+                    <a href="" target="_blank" aria-label="confira o projeto">
+                    <img class="devices" src="images/site-embreve.avif" alt="devices site em breve"> </a>
+                    <div class="project-text">
+                    <h3>Em breve</h3>
+                    <p>Em breve trago outro site</p>
+                    <details class="leia-mais" >                                          
+                        <sumary></sumary>                                                    
+                    </details>  
+                    <ul class="stats">
+                        <li>00% <span>Desempenho</span></li>
+                        <li>00% <span>Acessibilidade</span></li>
+                        <li>00% <span>Melhores Práticas</span></li>
+                    </ul>  
+                    </div>                        
+                </article>                                    
+                    <div class="links">
+                    <img class="webicon" src="images/devices.svg" alt="devices logo">
+                    <a href="" target="_blank" class="pagina">página</a>
+                    <img class="github" src="images/github-original.svg" alt="github logo">
+                    <a href="" target="_blank" class="codigo">código</a>
+                    </div>                     
+            </div> 
+        </div>
+        <div class="carrossel-actions">
+            <button data-js="carrossel-btn--prev" class="slider-arrow" id="left">
+                <img src="images/arrow_back.svg" alt=" arrow">
+            </button>
+            <button data-js="carrossel-btn--next" class="slider-arrow" id="right">
+                <img src="images/arrow_forward.svg" alt="forward arrow">
+            </button>
+        </div>        
+    </section>
+    <section id="contato" class="contact">
+        <h2>Contato</h2>
+        <p class="contact-text">Sinta-se à vontade para entrar em contato comigo enviando o formulário abaixo e retornarei o mais breve possível.</p>
+        <div class="form-container">
+            <form action="https://usebasin.com/f/d54bd5315fb2" class="contact-form" method="post">
+                <input type="hidden" name="form-name" value="form-1" /> 
+                 <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigada.html" />    <!-- //"http://" -->
+                <input type="hidden" value="/#" />
+                <div class="form-field">
+                    <label class="form-label" for="nome">Nome</label>
+                    <input required placeholder="Digite seu nome" type="text" class="form-input" name="nome" id="nome">
+                </div>                    
+                <div class="form-field">
+                    <label class="form-label" for="email">Email</label>
+                    <input required placeholder="Digite seu Email" type="email" class="form-input" name="email" id="email">
+                </div>
+                <div class="form-field">
+                    <label class="form-label" for="mensagem">Mensagem</label>
+                <textarea required cols="20" rows="10" placeholder="Escreva sua mensagem" class="form-input" name="mensagem" id="msg"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Enviar</button>
+            </form>         
+        </div>
+    </section>
+    <footer>
+        <div class="footer-superior">
+            <div class="meu-nome">
+                <h3>Nathaly Cavalcante</h3>
+                <p>(55) 99137-0498</p>
+                <a href="mailto:cavalcantenathaly@gmail.com" target="_blank">cavalcantenathaly@gmail.com</a>
+            </div>
+            <div class="redes-sociais">
+                <h3>Social</h3>
+                <div class="icones">
+                    <a href="https://www.linkedin.com/in/nathaly-cavalcante" target="_blank" title="linkedin" aria-label="encontre-me no linkedin"><i class="devicon-linkedin-plain"></i></a>
+                    <a href="https://github.com/NathalyCavalcante" target="_blank" title="github" aria-label="encontre-me no github"><i class="devicon-github-original"></i></a>
+                    <a href="https://twitter.com/nathaly_cvlcnt" target="_blank" title="twitter" aria-label="encontre-me no twitter"><i class="devicon-twitter-original"></i></a>                    
+                </div>               
+            </div>            
+        </div>        
+        <div class="footer-inferior">
+            <hr>     
+            <p>Desenvolvido por <br><b><a href="https://github.com/NathalyCavalcante" target="_blank">Nathaly Cavalcante</a></b>, 2022.</p>
+        </div>
+        <div data-anima="scroll">
+            <a class="topo" href="/" aria-label="volte ao topo">
+                <img src="images/arrow-circle-up.svg" class="arrow" alt="seta volta para home">
+            </a>
+        </div>
+    </footer>
+    <script src="mobile-navbar.js"></script>
+    <script src="rolagens.js"></script>
+    <script src="carrossel.js"></script>
+    <script src="troca-temas.js"></script>
+</body>
+</html>
