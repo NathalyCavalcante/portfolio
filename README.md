@@ -44,7 +44,9 @@ Assim também os projetos aqui inseridos, pois assim que eu conseguir fazer algo
        
 
 - Melhorar o desempenho no Lighthouse:
-    V. 1.1.2  (18/11/2022):
+    
+    
+    Portfólio V. 1.1.2  (18/11/2022):
 
     |  | Desempenho | Acessibilidade  | Práticas Recomendadas  | SEO
     | ----------- | ----------- | ----------- | ----------- | ----------- |
