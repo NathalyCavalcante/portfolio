@@ -48,7 +48,7 @@ Assim também os projetos aqui inseridos, pois assim que eu conseguir fazer algo
 
     |  | Desempenho | Acessibilidade  | Práticas Recomendadas  | SEO
     | ----------- | ----------- | ----------- | ----------- | ----------- |
-    | Computador | 92 | 95 | 92 | 80 |
+    | Computador | 98 | 95 | 92 | 80 |
     | Dispositivo Móvel | 96 | 95 | 75 | 83 |
 
 
