@@ -46,11 +46,11 @@ Assim também os projetos aqui inseridos, pois assim que eu conseguir fazer algo
 - Melhorar o desempenho no Lighthouse:
     
     
-    Portfólio V. 1.1.2  (18/11/2022):
+    Portfólio V. 1.1.3  (20/11/2022):
 
     |  | Desempenho | Acessibilidade  | Práticas Recomendadas  | SEO
     | ----------- | ----------- | ----------- | ----------- | ----------- |
-    | Computador | 98 | 95 | 92 | 80 |
-    | Dispositivo Móvel | 96 | 95 | 75 | 83 |
+    | Computador | 99 | 95 | 92 | 80 |
+    | Dispositivo Móvel | 97 | 95 | 75 | 83 |
 
 
