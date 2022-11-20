@@ -1,16 +1,16 @@
 :root {
-    --background-color: #FDF2F3;
+    --background-color: #fcfcfc;
     --font-color: #98baa2;
     --menu-footer-color: #C0E4CA;
     --elements-color: white;
-    --button-color: #F8C0BF;
-    --stats-color: #F8C0BF;
-    --card-color: #FBE3EE;
-    --span-color: #faadac;
+    --button-color: #deaaff;
+    --stats-color: #deaaff;
+    --card-color: #faecf3;
+    --span-color: #deaaff;
     --shadow-color: #cbb0c488;
-    --form-color: #FBE3EE;
+    --form-color: #e8d6f4;
     --fill-hover-color: invert(85%) sepia(12%) saturate(650%) hue-rotate(318deg) brightness(99%) contrast(94%);
-    --fill-color: invert(100%) sepia(1%) saturate(1771%) hue-rotate(225deg) brightness(114%) contrast(100%); /*white*/
-    --fill-icon-color: invert(91%) sepia(21%) saturate(266%) hue-rotate(80deg) brightness(98%) contrast(85%);
+    --fill-color:invert(83%) sepia(24%) saturate(6690%) hue-rotate(208deg) brightness(107%) contrast(102%); /*white*/
+    --fill-icon-color: invert(83%) sepia(24%) saturate(6690%) hue-rotate(208deg) brightness(107%) contrast(102%);
     --form-input-color: #f7f2f2;    
 }
