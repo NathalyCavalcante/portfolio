@@ -11,7 +11,7 @@ Quanto aos projetos demonstrados, tenho a meta de exibir:
 
  - [X] Um site de portfólio
  - [X] Um site de clone
- - [ ] Uma aplicação de CRUD para a web
+ - [X] Uma aplicação de CRUD para a web
  - [ ] Um site conectado a uma API
  - [ ] Um site da web de "pontuação perfeita"
 
@@ -33,8 +33,6 @@ Assim também os projetos aqui inseridos, pois assim que eu conseguir fazer algo
 
 - Definir uma logo melhor;
 
-- Melhorar o design responsivo para versões de tablet;
-
 - Como de fato resolver esse problema no HTML uma vez que jé tentei solucionar com `aria-label` e `aria-labelledby` 
     
 
@@ -50,7 +48,7 @@ Assim também os projetos aqui inseridos, pois assim que eu conseguir fazer algo
 
     |  | Desempenho | Acessibilidade  | Práticas Recomendadas  | SEO
     | ----------- | ----------- | ----------- | ----------- | ----------- |
-    | Computador | 98 | 95 | 92 | 90 |
-    | Dispositivo Móvel | 78 | 95 | 83 | 92 |
+    | Computador | 98 | 95 | 83 | 90 |
+    | Dispositivo Móvel | 96 | 95 | 83 | 92 |
 
 
