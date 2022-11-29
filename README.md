@@ -11,7 +11,7 @@ Quanto aos projetos demonstrados, tenho a meta de exibir:
 
  - [X] Um site de portfólio
  - [X] Um site de clone
- - [ ] Uma aplicação de CRUD para a web
+ - [X] Uma aplicação de CRUD para a web
  - [ ] Um site conectado a uma API
  - [ ] Um site da web de "pontuação perfeita"
 
@@ -32,8 +32,6 @@ Assim também os projetos aqui inseridos, pois assim que eu conseguir fazer algo
 - Fazer com que ao clicar nos botões de "projeto" e "contato" os títulos das seções fiquem visíveis, como em "sobre";
 
 - Definir uma logo melhor;
-
-- Melhorar o design responsivo para versões de tablet;
 
 - Como de fato resolver esse problema no HTML uma vez que jé tentei solucionar com `aria-label` e `aria-labelledby` 
     
