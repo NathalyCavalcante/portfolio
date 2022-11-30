@@ -44,7 +44,7 @@
     }
     h1 {
         font-size: 38px;
-    }    
+    }
     h2 {
         font-size: 28px;
     }
@@ -57,7 +57,7 @@
     .mobile-menu {
         cursor: pointer;
         display: none;
-    }    
+    }
     .mobile-menu div {
         width: 32px;
         height: 5px;
@@ -95,19 +95,19 @@
     .troca-cor h3 {
         display: none;
     }
-    
+
     /* sobre mim */
-   
+
     .about-info {
         display:flex;
         flex-direction: column;
         padding-left: 20px;
-        padding-right: 20px; 
+        padding-right: 20px;
         align-items: center;
     }
     .minha-foto {
         height: 300px;
-        
+
     }
     .text {
         text-align: center;
@@ -117,9 +117,9 @@
     .habilidades {
         padding: 0px;
     }
-    .habilidades li {        
+    .habilidades li {
         line-height: 3;
-    }   
+    }
 
     /* projetos-carrossel*/
 
@@ -132,11 +132,11 @@
         margin-bottom: 20px;
     }
     .carrossel-container {
-        height: 100vh;            
-    }    
+        height: 93vh;
+    }
     .carrossel {
         padding-left: 15px;
-    }    
+    }
     .leia-mais {
         display: block;
         color: var(--font-color);
@@ -144,9 +144,9 @@
         padding-right: 5px;
     }
     .project-text p {
-        display: none;
+        /* display: none; */
     }
-    .slide {      
+    .slide {
         padding-left: 0px;
         width: 82vw;
     }
@@ -184,8 +184,8 @@
     }
     .links {
        justify-content: space-between;
-       padding: 15px;    
-    }    
+       padding: 15px;
+    }
     .links a {
         padding-left: 5px;
         padding-right: 40px;
@@ -197,14 +197,14 @@
     .github {
         height: 35px;
     }
-    
+
     /* contato */
 
     .contact {
         margin-top: 0;
     }
     .contact h2 {
-        margin-top: 60px;
+        /* margin-top: 60px; */
         margin-bottom: 20px;
     }
     .contact-text {
@@ -214,7 +214,7 @@
         padding: 20px;
         margin: 3rem auto 0 auto;
         width: 100%;
-    }    
+    }
     .submit-btn {
         margin: 0;
         width: 40%;
@@ -233,7 +233,7 @@
     }
     .meu-nome, .redes-sociais {
         text-align: center;
-    }    
+    }
     .redes-sociais {
         width: 70vw;
         margin-top: 30px;
@@ -267,11 +267,11 @@
 .mobile-menu.active .line1 {
     transform: rotate(-45deg) translate(-13px, 13px);
   }
-  
+
 .mobile-menu.active .line2 {
     opacity: 0;
   }
-  
+
 .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
   }
