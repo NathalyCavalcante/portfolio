@@ -29,7 +29,9 @@ Assim também os projetos aqui inseridos, pois assim que eu conseguir fazer algo
 
 - Melhorar os textos; 
 
-- Fazer com que ao clicar nos botões de "projeto" e "contato" os títulos das seções fiquem visíveis, como em "sobre";
+- Fazer com que ao clicar nos botões de "projeto" e "contato" os títulos das seções fiquem visíveis, como em "sobre" (na versão mobile funciona bem);
+
+- Praticar melhores práticas de git e as mensagens dos commmits;
 
 - Definir uma logo melhor;
 
