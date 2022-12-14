@@ -95,6 +95,10 @@
     .troca-cor h3 {
         display: none;
     }
+    .btn-tema i {       
+        font-size: 28px;       
+    }
+    
 
     /* sobre mim */
 
