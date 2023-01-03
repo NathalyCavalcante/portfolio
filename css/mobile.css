@@ -95,8 +95,9 @@
     .troca-cor h3 {
         display: none;
     }
-    .btn-tema i {       
-        font-size: 28px;       
+    .btn-tema img {       
+        font-size: 26px; 
+        padding: 3px;      
     }
     
 

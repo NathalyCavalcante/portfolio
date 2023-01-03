@@ -105,13 +105,13 @@ nav {
     background-color: transparent;
 }
 
-.btn-tema i {
+.btn-tema img {
     padding: 10px;
-    font-size: 33px;
+    height: 55px;
     filter: var(--fill-color);
 }
 
-.btn-tema i:hover {    
+.btn-tema img:hover {    
     filter: var(--fill-hover-color);
 }
 
