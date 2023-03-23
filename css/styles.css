@@ -24,8 +24,8 @@ a {
     color: var(--elements-color);
     text-decoration: none;
     cursor: pointer;
-  }
-  
+}
+
 a:hover {
     color: var(--span-color);
 }
@@ -78,7 +78,7 @@ nav {
 }
 
 .logo :hover {
-     opacity: 0.5;
+    opacity: 0.5;
 }
 
 .troca-cor {     
@@ -87,7 +87,7 @@ nav {
     align-items: center;
     padding-left: 350px;
 }
-   
+
 .troca-cor h3 {
     font-size: 18px;
     text-align: center;
